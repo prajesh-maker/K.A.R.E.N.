@@ -81,6 +81,21 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
+    else if(message.includes('good morning')) {
+        const finalText = "good morning prajesh, congratulations on completing the rigorous training wheels protocol in gaining access to your suits full capability so where would you like to take me tonight track are located.";
+        speech.text = finalText;
+    }
+
+    else if(message.includes('good afternoon')) {
+        const finalText = "good afternoon prajesh, congratulations on completing the rigorous training wheels protocol in gaining access to your suits full capability so where would you like to take me tonight track are located.";
+        speech.text = finalText;
+    }
+
+    else if(message.includes('good evening')) {
+        const finalText = "good evening prajesh, congratulations on completing the rigorous training wheels protocol in gaining access to your suits full capability so where would you like to take me tonight track are located.";
+        speech.text = finalText;
+    }
+
     else if(message.includes('open google')) {
         window.open("https://google.com", "_blank");
         const finalText = "Opening Google sir";

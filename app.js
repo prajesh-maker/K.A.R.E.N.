@@ -76,7 +76,7 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
-    else if(message.includes('your creators name')) {
+    else if(message.includes('my name')) {
         const finalText = "My creator name is Prajesh";
         speech.text = finalText;
     }
@@ -99,6 +99,18 @@ function speakThis(message) {
     else if(message.includes('open google')) {
         window.open("https://google.com", "_blank");
         const finalText = "Opening Google sir";
+        speech.text = finalText;
+    }
+
+    else if(message.includes('display')) {
+        window.open("https://i.pinimg.com/originals/09/86/2f/09862ff6612c35a1683ae0961fddf6db.gif", "_blank");
+        const finalText = "Check";
+        speech.text = finalText;
+    }
+
+    else if(message.includes('interface')) {
+        window.open("https://i.pinimg.com/originals/18/35/ab/1835abefdfa15da0e3faed43010a00a5.gif", "_blank");
+        const finalText = "will do so";
         speech.text = finalText;
     }
 
@@ -193,6 +205,12 @@ function speakThis(message) {
     else if(message.includes('calculator')) {
         window.open('Calculator:///')
         const finalText = "Opening Calculator sir";
+        speech.text = finalText;
+    }
+
+    else if(message.includes('open chat')) {
+        window.open('Whatsapp:///')
+        const finalText = "Opening chat sir";
         speech.text = finalText;
     }
 
